@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/tweets_item.xml" value="0.161" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/tweets_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/tweetss_item.xml" value="0.22" />
       </map>

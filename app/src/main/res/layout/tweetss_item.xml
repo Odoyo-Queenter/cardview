@@ -6,8 +6,8 @@
     android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="413dp"
-        android:layout_height="252dp"
+        android:layout_width="359dp"
+        android:layout_height="337dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -15,7 +15,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvtweet"
@@ -33,7 +34,7 @@
             android:layout_width="35dp"
             android:layout_height="45dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline6"
             app:layout_constraintHorizontal_bias="1.0"
@@ -45,10 +46,10 @@
             android:id="@+id/imgMessage"
             android:layout_width="22dp"
             android:layout_height="21dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="104dp"
+            android:layout_marginTop="180dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintHorizontal_bias="0.238"
             app:layout_constraintStart_toStartOf="@+id/guideline6"
             app:layout_constraintTop_toBottomOf="@+id/imgPerson"
             app:srcCompat="@drawable/ic_baseline_message_24" />
@@ -57,7 +58,6 @@
             android:id="@+id/imgRetweet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/imgMessage"
             app:layout_constraintEnd_toStartOf="@+id/guideline8"
@@ -69,7 +69,6 @@
             android:id="@+id/imgLike"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/imgRetweet"
             app:layout_constraintEnd_toStartOf="@+id/guideline9"
@@ -81,7 +80,6 @@
             android:id="@+id/imgShare"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintBottom_toBottomOf="@+id/imgLike"
             app:layout_constraintEnd_toEndOf="parent"
@@ -127,7 +125,7 @@
             android:text="Queenter Achieng"
             app:layout_constraintBottom_toBottomOf="@+id/imgPerson"
             app:layout_constraintStart_toStartOf="@+id/guideline6"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/imgPerson" />
 
         <TextView
             android:id="@+id/tvHandler"
@@ -141,11 +139,12 @@
 
         <TextView
             android:id="@+id/tvMessages"
-            android:layout_width="304dp"
-            android:layout_height="56dp"
-            android:layout_marginTop="32dp"
+            android:layout_width="296dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="40dp"
             android:text="It can be challenging to avoid mentioning the importance of digital wallet apps while discussing the digitalization trend the financial services sector is experiencing."
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.218"
             app:layout_constraintStart_toEndOf="@+id/imgPerson"
             app:layout_constraintTop_toBottomOf="@+id/tvDisplayName" />
 
@@ -155,7 +154,7 @@
             android:layout_height="20dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:text="1200"
+            android:text="12"
             app:layout_constraintBottom_toBottomOf="@+id/imgMessage"
             app:layout_constraintEnd_toStartOf="@+id/guideline7"
             app:layout_constraintStart_toEndOf="@+id/imgMessage"
@@ -179,7 +178,7 @@
             android:layout_height="20dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:text="12,267,345"
+            android:text="56"
             app:layout_constraintBottom_toBottomOf="@+id/imgLike"
             app:layout_constraintEnd_toStartOf="@+id/guideline9"
             app:layout_constraintStart_toEndOf="@+id/imgLike"
